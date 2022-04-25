@@ -21,10 +21,10 @@ public class Main {
             bonus2 = 0;
         }
         int sumAccount2 = account + secondPayment + bonus2;
-        System.out.println("Начисленные бонусы за пополнение: " + bonus);
-        System.out.println("Итоговый счёт после пополнения: " + sumAccount);
-        System.out.println("Начисленные бонусы за последующее пополнение: " + bonus2);
-        System.out.println("Итоговый счёт после последующего пополнения: " + sumAccount2);
+        System.out.println("Начисленные бонусы за пополнение: " + bonus + " руб");
+        System.out.println("Итоговый счёт после пополнения: " + sumAccount + " руб");
+        System.out.println("Начисленные бонусы за последующее пополнение: " + bonus2 + " руб");
+        System.out.println("Итоговый счёт после последующего пополнения: " + sumAccount2 + " руб");
 
     }
 }
